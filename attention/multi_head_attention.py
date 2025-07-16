@@ -5,8 +5,7 @@ from attention.causal_attention import CausalSelfAttention
 class MultiHeadAttention(nn.Module):
     def __init__(self, d_in, d_out, context_length, dropout_rate, num_heads, qkv_bias=False):
         super().__init__()
-        assert (d_out % num_heads == 0), \
-            "d_out must be divisible by num_heads"
+        assert (d_out % num_heads == 0), "d_out must be divisible by num_heads"
 
         self.d_out = d_out
         self.num_heads = num_heads
