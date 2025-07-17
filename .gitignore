@@ -7,4 +7,14 @@ venv
 
 __pycache__
 
+# Model files
 *.pth
+*.bin
+*.safetensors
+*.model
+*.weights
+
+# Experiment directories with large files
+experiments/*/gpt_*.pth
+experiments/*/model_*.pth
+experiments/*/final_*.pth
