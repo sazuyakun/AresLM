@@ -18,3 +18,7 @@ __pycache__
 experiments/*/gpt_*.pth
 experiments/*/model_*.pth
 experiments/*/final_*.pth
+
+.DS_Store
+*.bpe
+*.ckpt*
