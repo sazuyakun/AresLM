@@ -22,3 +22,5 @@ experiments/*/final_*.pth
 .DS_Store
 *.bpe
 *.ckpt*
+
+sms_spam_collection*
